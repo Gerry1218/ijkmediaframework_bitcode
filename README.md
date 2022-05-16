@@ -2,9 +2,17 @@
 - support bitcode
 - support armv7 x86_64 arm64
 - auto rotation
-
 ```
-File: IJKFFMoviePlayerController.m
+IJKFFOptions *options = [IJKFFOptions optionsByDefault];
+options.autoRotationVideo = YES;
+```
+
+
+# Modified
+- [ijkplayer](https://github.com/bilibili/ijkplayer)
+
+File: `IJKFFMoviePlayerController.m`
+```
 - (void)postEvent: (IJKFFMoviePlayerMessage *)msg {
     ...
     case FFP_MSG_VIDEO_ROTATION_CHANGED: {
