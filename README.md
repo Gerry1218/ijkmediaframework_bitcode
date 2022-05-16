@@ -1,7 +1,7 @@
 # ijkmediaframework_bitcode
-1、support bitcode
-2、support armv7 x86_64 arm64
-3、auto rotation
+- support bitcode
+- support armv7 x86_64 arm64
+- auto rotation
 
 ```
 File: IJKFFMoviePlayerController.m
